@@ -21,6 +21,10 @@ app.use(express.json())
 app.use(cookieParser())
 
 
+app.get('/', (req, res) => {
+    res.jsonn({ "hello": "I am happy to deploy our application" })
+})
+
 app.get('/api/user/auth', auth, (req, res) => {
 
     res.status(200).json({
@@ -97,6 +101,6 @@ const port = process.env.PORT || 5000;
 
 
 
-app.listen(port,()=>{
-    console.log('Server Running on '+ port)
+app.listen(port, () => {
+    console.log('Server Running on ' + port)
 })
