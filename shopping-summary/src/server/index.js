@@ -22,7 +22,7 @@ app.use(cookieParser())
 
 
 app.get('/', (req, res) => {
-    res.jsonn({ "hello": "I am happy to deploy our application" })
+    res.json({ "hello": "I am happy to deploy our application" })
 })
 
 app.get('/api/user/auth', auth, (req, res) => {
