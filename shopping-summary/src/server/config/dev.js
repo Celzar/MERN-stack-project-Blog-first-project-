@@ -1,3 +1,3 @@
 module.exports = {
-  mongoURI: 'mongodb://localhost:27017/myapp'
+  mongoURI: 'mongodb+srv://Hello:<password>@cluster-heroku-jdzkb.mongodb.net/test?retryWrites=true&w=majority'
 }
