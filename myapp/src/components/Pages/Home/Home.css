@@ -1,0 +1,31 @@
+#SPbutton:hover{
+    box-shadow: inset 5px 5px 30px #cdd1d3, inset -5px -5px 30px #ffffff;
+    
+}
+#SPbutton{
+    /* box-shadow: 8px 8px 16px #c9cccf,-8px -8px 16px #ffffff; */
+    /* box-shadow: 6px 6px 12px #c6cacc, -6px -6px 12px #ffffff; */
+    box-shadow: 6px 6px 12px #c6cacc, -6px -6px 12px #ffffff;
+    /* background: linear-gradient(145deg, #d4d8db, #fdffff); */
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+
+}
+
+/* 
+#queryToHide{
+    color: red !important;
+    
+    } */
+
+@media only screen and (max-width: 576px){
+    small#extraSmall{
+        display: none;
+        }
+        h5#extraSmall{
+            font-size: 16px 
+            /* color: red !important */
+        }
+        small#extraSmallUserName{
+            /* color: gray !important */
+        }
+    }

@@ -1,0 +1,26 @@
+div.background{
+   
+                background: linear-gradient(135deg, #f4f4f8 0%,#e0dede 25%,#1e539e 50%,#ff3083 75%,#7800a8 100%); 
+                /* background: linear-gradient(135deg, #7800a8 0%, #ff3083 25%,#1e539e 50%,#e0dede 75%,  #dfdfdf 100%); */
+                /* background: linear-gradient(135deg, #dfdfdf 100%,#e0dede 75%,#1e539e 50%,#ff3083 25%,#7800a8 0%); */
+                background-size: 400% 400%;
+                background-repeat: no-repeat;
+                width:100%;
+                height:100vh;
+                max-width: 100vw;
+                max-height: 100vh;
+                /* color: #fff; */
+                /* cursor: pointer; */
+                transition: .5s all;
+  
+}
+
+div{
+  
+}
+
+
+/* 
+div.background:hover {
+  background-position: 100% 100%;
+}  */

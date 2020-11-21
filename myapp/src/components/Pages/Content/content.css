@@ -1,0 +1,45 @@
+/* 
+div.DraftEditor-root {
+    border: 1px solid #000;
+    height: 80vh;
+    width: 100%;
+    overflow-y: auto;
+  }  */
+  /* .editor-class, .wrapper-class{
+    outline: none;
+  
+    border: 1px solid #000;
+    height: 80vh;
+    width: 100%;
+    overflow-y: auto;
+  } */
+  .toolbar-className{
+    /* border: solid 1px black; */
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    max-width: 90rem;
+  }
+
+  .editor-className{
+    outline: none; 
+    /* border: 1px solid #63707e; */
+    /* height: 80vh; */
+    width: 100%;
+    overflow-y: auto;
+    z-index: 0;
+    max-width: 100rem;
+  }
+/*   
+  div#noBorder{
+    border-right: 1px solid #63707e;
+    
+  } */
+/* 
+  @media only screen and (max-width: 600px) {
+    div#noBorder {
+      border-right: none;
+      background: red
+    }
+  } */
